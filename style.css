@@ -1,0 +1,50 @@
+.cart-item-img img{
+    width: 100%;
+}
+.header{
+    text-align: center;
+}
+.logo{
+    width: 80px;
+}
+.count-wrap{
+    background-color: #e4e4e7;
+    border-radius: 3px;
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    width: 40%;
+}
+.card{
+    padding: 15px;
+}
+.item-current, .item-control{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.mybtn{
+    width: 200px;
+    margin: 20px auto 0;
+}
+.item-control{
+    cursor: pointer;
+}
+.none{
+    display: none;
+}
+.tel{
+    margin-bottom: 15px;
+}
+.total-cost{
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+}

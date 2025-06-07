@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="header">
+            <img src="img/logo/logo.png" alt="" class="logo">
+            <h1>Доставка салатів</h1>
+            <p>Оперативно та смачно</p>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card" data-id="01">
+                            <img src="img/1.jpg" alt="" class="poduct-img">
+                            <h3 class="item-title">Салат з яловичиною</h3>
+                            <p class="text-count">1 шт</p>
+                            <div class="wrap">
+                                <div class="item count-wrap">
+                                    <div class="item-control" data-action="minus">-</div>
+                                    <div class="item-current" data-current>1</div>
+                                    <div class="item-control" data-action="plus">+</div>
+                                </div>
+                                <div class="price">
+                                    <div class="price-weight">180</div>
+                                    <div class="price-currency">300</div>
+                                </div>
+                            </div>
+                            <button data-cart class="btn btn-primary mybtn">в кошик</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card" data-id="02">
+                            <img src="img/2.jpg" alt="" class="poduct-img">
+                            <h3 class="item-title">Салат мімоза з тунцем</h3>
+                            <p class="text-count">1 шт</p>
+                            <div class="wrap">
+                                <div class="item count-wrap">
+                                    <div class="item-control" data-action="minus">-</div>
+                                    <div class="item-current" data-current>1</div>
+                                    <div class="item-control" data-action="plus">+</div>
+                                </div>
+                                <div class="price">
+                                    <div class="price-weight">200</div>
+                                    <div class="price-currency">350</div>
+                                </div>
+                            </div>
+                            <button data-cart class="btn btn-primary mybtn">в кошик</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card" data-id="03">
+                            <img src="img/3.jpg" alt="" class="poduct-img">
+                            <h3 class="item-title">Салат з печінкою</h3>
+                            <p class="text-count">1 шт</p>
+                            <div class="wrap">
+                                <div class="item count-wrap">
+                                    <div class="item-control" data-action="minus">-</div>
+                                    <div class="item-current" data-current>1</div>
+                                    <div class="item-control" data-action="plus">+</div>
+                                </div>
+                                <div class="price">
+                                    <div class="price-weight">250</div>
+                                    <div class="price-currency">150</div>
+                                </div>
+                            </div>
+                            <button data-cart class="btn btn-primary mybtn">в кошик</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card" data-id="04">
+                            <img src="img/4.jpg" alt="" class="poduct-img">
+                            <h3 class="item-title">Грецький салат</h3>
+                            <p class="text-count">1 шт</p>
+                            <div class="wrap">
+                                <div class="item count-wrap">
+                                    <div class="item-control" data-action="minus">-</div>
+                                    <div class="item-current" data-current>1</div>
+                                    <div class="item-control" data-action="plus">+</div>
+                                </div>
+                                <div class="price">
+                                    <div class="price-weight">220</div>
+                                    <div class="price-currency">320</div>
+                                </div>
+                            </div>
+                            <button data-cart class="btn btn-primary mybtn">в кошик</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- cart -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Ваше замовлення</h3>
+                        <p data-card-empty class="card-all">Кошик порожній</p>
+                    </div>
+                    <div class="card-wrap">
+
+                    </div>
+                    <hr>
+                    <div class="cart-total">
+                        <p>Доставка:</p>
+                        <p>Всего: <span class="total-cost">0</span> грн</p>
+                    </div>
+                    <hr>
+                    <div class="order none">
+                        <h4>Оформить заказ</h4>
+                        <div class="order-form">
+                            <input type="text" placeholder="Ваш номер телефона" class="tel">
+                            <button type="submit" class="btn btn-primary">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="cartPrice.js"></script>
+    <script src="myFunk.js"></script>
+    <script src="script1.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>
